@@ -1,0 +1,100 @@
+*{
+	margin: 0;
+	padding:0;
+
+}
+body{
+	background-color: #f3f5f7;
+}
+header{
+	width: 100%;
+	height:80px;
+	margin: 0 auto;
+	background-color:lightblue;
+	padding-top: 20px;
+}
+.logo{
+	width: 195px;
+	height: 55px;
+	padding-top: left;
+	float: left;
+}
+.logo a {
+	display: block;
+	width: 195px;
+	height: 55px;
+	background: url(../image/logo.png) no-repeat;
+	text-indent: -990px;
+	overflow: hidden;
+}
+nav{
+	float: left;
+	margin-left: 20px;
+	
+}
+nav li{
+	float: left;
+	height: 40px;
+	line-height: 40px;
+	margin-left: 25px;
+}
+nav li a{
+	display: block;
+	height: 40px;
+	font-size:20px;
+	padding:0 10px; 
+}
+nav li a:hover{
+	border-bottom: 2px solid #00a4ff;
+}
+.search{
+	width: 410px;
+	height: 40px;
+	background-color: purple;
+	float: left;
+	margin-left: 220px;
+}
+.search input{
+	width: 361px;
+	height: 40px;
+	border: 1px solid #000;
+	outline: none;
+	padding-left: 10px;
+	float: left;
+}
+.search button{
+	width: 49px;
+	height: 40px;
+	border: 0;
+	outline: none;
+	float: left;
+	background:url(../image/fa-search.png);
+}
+.personal{
+	float: right;
+	height: 40px;
+	line-height: 40px;
+	margin-left: 150px;
+}
+.personal dt,.personal dd{
+	float: left;
+	
+}
+.personal s{
+	position: relative;
+	
+}
+.personal span{
+	margin-left: 40px;
+	
+}
+.banner{
+	width: 100%;
+	height: 400px;	
+	background-color:#1D046C; 
+}
+.banner img{
+	width: 80%;
+	height: 400px;
+	margin: 0 10%;
+}
